@@ -15,13 +15,8 @@ $('document').ready(function() {
     } else {
       li.append('<img class="round" src="' + item2 + '" > ');
     }
-<<<<<<< HEAD
     li.append('<a href="' + item3 + '?client_id=a281614d7f34dc30b665dfcaa3ed7505'+ '" download="song"> Download </a>');
-=======
-    li.append('<a href="' + item3 + '?client_id=a281614d7f34dc30b665dfcaa3ed7505'+ '"> Download </a>');
->>>>>>> 34e36834ef6198dd855e0fbaad1467bfd5ea1fa9
     return li;
-
   }
   $('input#search').on('keyup', function(event) {
     if (event.keyCode == 13) { // 13 = Enter Key
