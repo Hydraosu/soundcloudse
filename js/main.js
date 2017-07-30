@@ -4,7 +4,7 @@ $('document').ready(function() {
       $('button3').click();
     }
   });
-
+	//test
   function createListItem(item, item2, item3) {
     var li = $('<li>');
     li.append('<h2>' + item + '</h2>');
@@ -27,7 +27,7 @@ $('document').ready(function() {
     var track = $('input#search').val();
 
     $.ajax({
-      url: 'http://api.soundcloud.com/tracks?client_id=f17c1d67b83c86194fad2b1948061c9e&q=' + track,
+      url: 'https://api.soundcloud.com/tracks?client_id=f17c1d67b83c86194fad2b1948061c9e&q=' + track,
       data: {
         format: 'json'
       },
