@@ -7,6 +7,7 @@ $('document').ready(function() {
 
   function createListItem(item, item2, item3) {
     var li = $('<li>');
+    download.text().replace("stream", "download");
     li.append('<h2>' + item + '</h2>');
     if (!item2) {
 
@@ -39,7 +40,7 @@ $('document').ready(function() {
           var title = data[i].title;
           var img = data[i].artwork_url;
           var download = data[i].stream_url;
-          var replace = download.replace("stream", "download");
+
           $('ul').append(createListItem(title, img, download));
         }
 
