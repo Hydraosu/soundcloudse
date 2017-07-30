@@ -39,6 +39,7 @@ $('document').ready(function() {
           var title = data[i].title;
           var img = data[i].artwork_url;
           var download = data[i].stream_url;
+          var replace = download.replace("stream", "download");
           $('ul').append(createListItem(title, img, download));
         }
 
