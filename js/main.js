@@ -11,9 +11,15 @@ $('document').ready(function() {
     li.append('<h2>' + item + '</h2>');
     if (!item2) {
 
+<<<<<<< HEAD
       li.append('<img class="round" src="img/no-image.png" /> <br>');
     } else {
       li.append('<img class="round" src="' + item2 + '" ><br> ');
+=======
+      li.append('Brak obrazka! ');
+    } else {
+      li.append('<img class="round" src="' + item2 + '" > ');
+>>>>>>> 83edd72c24f820f22d43ae987fae9f596f885e6e
     }
     li.append('<a href="' + item3 + '?client_id=a281614d7f34dc30b665dfcaa3ed7505'+ '" download="song"> Download </a>');
     return li;
