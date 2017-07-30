@@ -14,7 +14,7 @@ $('document').ready(function() {
     } else {
       li.append('<img src="' + item2 + '" > <br>');
     }
-    li.append('<a href="' + item3 + '?client_id=f17c1d67b83c86194fad2b1948061c9e' + '" > Download </a>');
+    li.append('<a href="' + item3 + '?client_id=a281614d7f34dc30b665dfcaa3ed7505' + '" > Download </a>');
     return li;
 
   }
@@ -27,7 +27,7 @@ $('document').ready(function() {
     var track = $('input#search').val();
 
     $.ajax({
-      url: 'https://api.soundcloud.com/tracks?client_id=f17c1d67b83c86194fad2b1948061c9e&q=' + track,
+      url: 'https://api.soundcloud.com/tracks?client_id=a281614d7f34dc30b665dfcaa3ed7505&q=' + track,
       data: {
         format: 'json'
       },
