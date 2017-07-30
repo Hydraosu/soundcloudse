@@ -15,9 +15,6 @@ $('document').ready(function() {
       li.append('<img src="' + item2 + '" > <br>');
     }
     li.append('<a href="' + item3 + '?client_id=a281614d7f34dc30b665dfcaa3ed7505' + '"type="application/octet-stream"> Download </a>');
-    $('a').each(function(){
-        this.href = this.href.replace('stream', 'download');
-    });
     return li;
 
   }
