@@ -4,7 +4,7 @@ $('document').ready(function() {
       $('button3').click();
     }
   });
-	//test
+	
   function createListItem(item, item2, item3) {
     var li = $('<li>');
     li.append('<h2>' + item + '</h2>');
