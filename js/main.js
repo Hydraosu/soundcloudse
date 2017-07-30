@@ -10,7 +10,7 @@ $('document').ready(function() {
     li.append('<h2>' + item + '</h2>');
     if (!item2) {
 
-      li.append('Brak jebanego obrazka! <br>');
+      li.append('Brak obrazka! <br>');
     } else {
       li.append('<img src="' + item2 + '" > <br>');
     }
