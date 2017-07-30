@@ -4,7 +4,7 @@ $('document').ready(function() {
       $('button3').click();
     }
   });
-	
+
   function createListItem(item, item2, item3) {
     var li = $('<li>');
     li.append('<h2>' + item + '</h2>');
@@ -14,7 +14,7 @@ $('document').ready(function() {
     } else {
       li.append('<img src="' + item2 + '" > <br>');
     }
-    li.append('<a href="' + item3 + '?client_id=a281614d7f34dc30b665dfcaa3ed7505' + '" download="true"> Download </a>');
+    li.append('<a href="' + item3 + '?client_id=a281614d7f34dc30b665dfcaa3ed7505' + '" download target="_blank"> Download </a>');
     return li;
 
   }
